@@ -4,6 +4,7 @@
 using namespace std;
 
 int main(){
+    cout << endl;
     cout << "Main function" << endl;
-    module1::test(44);
+    module1::test(155);
 }

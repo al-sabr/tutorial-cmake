@@ -40,7 +40,7 @@ int main(int argc, char* argv[]){
     else
         cout << "SetDllDirectoryA error" << endl;
 
-    STARTUPINFO si;
+    STARTUPINFOA si;
     PROCESS_INFORMATION pi;
 
     ZeroMemory( &si, sizeof(si) );
